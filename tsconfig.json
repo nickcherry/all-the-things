@@ -1,0 +1,14 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "strict": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "types": [
+      "bun-types" // add Bun global
+    ]
+  },
+  "include": ["./src"]
+}
